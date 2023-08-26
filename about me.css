@@ -1,0 +1,47 @@
+* {
+    background-color: #2c2d2f;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    text-transform: capitalize;
+    color: #00A3E1;
+    position: relative;
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    padding: 0;
+  }
+h3{
+    color: white;
+}
+p{
+    color:white
+}
+.page-heading{
+    text-align: left;
+}
+span{
+    text-align: right;
+    color: white;
+}
+.personal{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    color: white;
+}
+.about {
+    transition: width 3s height 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+}
+.about :hover{
+    height: 300px;
+    width: 300px;
+}
